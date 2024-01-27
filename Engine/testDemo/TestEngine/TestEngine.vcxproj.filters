@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\src">
+      <UniqueIdentifier>{feef34ec-e08a-4ad9-8f17-b7ee3a18284e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ingui">
+      <UniqueIdentifier>{38094c01-5803-4aff-808e-f687627c8fbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ingui\backends">
+      <UniqueIdentifier>{fbb3a2e7-fa87-47ad-a4bc-6c0ef81117f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ingui\misc">
+      <UniqueIdentifier>{9bc54acf-cd6c-46da-ba4b-96c30b904e05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ingui\misc\cpp">
+      <UniqueIdentifier>{4b6b4f70-62df-473d-b672-cfe0c01eb307}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\GLSL">
+      <UniqueIdentifier>{0de0cab5-3d2a-45ea-b232-15f77f31dd4a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Deps\srcs\glad.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Deps\srcs\stb_image.cpp">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Deps\imgui\imgui.cpp">
+      <Filter>源文件\ingui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Deps\imgui\imgui_demo.cpp">
+      <Filter>源文件\ingui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Deps\imgui\imgui_draw.cpp">
+      <Filter>源文件\ingui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Deps\imgui\imgui_tables.cpp">
+      <Filter>源文件\ingui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Deps\imgui\imgui_widgets.cpp">
+      <Filter>源文件\ingui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Deps\imgui\backends\imgui_impl_opengl3.cpp">
+      <Filter>源文件\ingui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Deps\imgui\misc\cpp\imgui_stdlib.cpp">
+      <Filter>源文件\ingui\misc\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Deps\imgui\backends\imgui_impl_glfw.cpp">
+      <Filter>源文件\ingui\backends</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Deps\GLSL\Engine\LightingShader.fs">
+      <Filter>资源文件\GLSL</Filter>
+    </None>
+    <None Include="..\..\Deps\GLSL\Engine\LightingShader.vs">
+      <Filter>资源文件\GLSL</Filter>
+    </None>
+    <None Include="..\..\Deps\GLSL\Engine\LightShader.fs">
+      <Filter>资源文件\GLSL</Filter>
+    </None>
+    <None Include="..\..\Deps\GLSL\Engine\LightShader.vs">
+      <Filter>资源文件\GLSL</Filter>
+    </None>
+    <None Include="..\..\Deps\GLSL\Engine\SkyShader.fs">
+      <Filter>资源文件\GLSL</Filter>
+    </None>
+    <None Include="..\..\Deps\GLSL\Engine\SkyShader.vs">
+      <Filter>资源文件\GLSL</Filter>
+    </None>
+    <None Include="..\..\Deps\GLSL\Engine\WorldShader.fs">
+      <Filter>资源文件\GLSL</Filter>
+    </None>
+    <None Include="..\..\Deps\GLSL\Engine\WorldShader.vs">
+      <Filter>资源文件\GLSL</Filter>
+    </None>
+  </ItemGroup>
+</Project>

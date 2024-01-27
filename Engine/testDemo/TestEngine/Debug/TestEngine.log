@@ -1,0 +1,53 @@
+﻿imgui_impl_glfw.obj : error LNK2019: 无法解析的外部符号 _glfwGetError，函数 "bool __cdecl ImGui_ImplGlfw_Init(struct GLFWwindow *,bool,enum GlfwClientApi)" (?ImGui_ImplGlfw_Init@@YA_NPAUGLFWwindow@@_NW4GlfwClientApi@@@Z) 中引用了该符号
+imgui_impl_glfw.obj : error LNK2019: 无法解析的外部符号 _glfwSetErrorCallback，函数 "bool __cdecl ImGui_ImplGlfw_Init(struct GLFWwindow *,bool,enum GlfwClientApi)" (?ImGui_ImplGlfw_Init@@YA_NPAUGLFWwindow@@_NW4GlfwClientApi@@@Z) 中引用了该符号
+imgui_impl_glfw.obj : error LNK2019: 无法解析的外部符号 _glfwSetMonitorCallback，函数 "void __cdecl ImGui_ImplGlfw_InstallCallbacks(struct GLFWwindow *)" (?ImGui_ImplGlfw_InstallCallbacks@@YAXPAUGLFWwindow@@@Z) 中引用了该符号
+imgui_impl_glfw.obj : error LNK2019: 无法解析的外部符号 _glfwGetWindowSize，函数 "void __cdecl ImGui_ImplGlfw_NewFrame(void)" (?ImGui_ImplGlfw_NewFrame@@YAXXZ) 中引用了该符号
+imgui_impl_glfw.obj : error LNK2019: 无法解析的外部符号 _glfwGetFramebufferSize，函数 "void __cdecl ImGui_ImplGlfw_NewFrame(void)" (?ImGui_ImplGlfw_NewFrame@@YAXXZ) 中引用了该符号
+main.obj : error LNK2001: 无法解析的外部符号 _glfwGetFramebufferSize
+imgui_impl_glfw.obj : error LNK2019: 无法解析的外部符号 _glfwGetWindowAttrib，函数 "void __cdecl ImGui_ImplGlfw_UpdateMouseData(void)" (?ImGui_ImplGlfw_UpdateMouseData@@YAXXZ) 中引用了该符号
+imgui_impl_glfw.obj : error LNK2019: 无法解析的外部符号 _glfwSetWindowFocusCallback，函数 "void __cdecl ImGui_ImplGlfw_InstallCallbacks(struct GLFWwindow *)" (?ImGui_ImplGlfw_InstallCallbacks@@YAXPAUGLFWwindow@@@Z) 中引用了该符号
+imgui_impl_glfw.obj : error LNK2019: 无法解析的外部符号 _glfwGetInputMode，函数 "void __cdecl ImGui_ImplGlfw_UpdateMouseCursor(void)" (?ImGui_ImplGlfw_UpdateMouseCursor@@YAXXZ) 中引用了该符号
+imgui_impl_glfw.obj : error LNK2019: 无法解析的外部符号 _glfwSetInputMode，函数 "void __cdecl ImGui_ImplGlfw_UpdateMouseCursor(void)" (?ImGui_ImplGlfw_UpdateMouseCursor@@YAXXZ) 中引用了该符号
+main.obj : error LNK2001: 无法解析的外部符号 _glfwSetInputMode
+imgui_impl_glfw.obj : error LNK2019: 无法解析的外部符号 _glfwGetKeyName，函数 "int __cdecl ImGui_ImplGlfw_TranslateUntranslatedKey(int,int)" (?ImGui_ImplGlfw_TranslateUntranslatedKey@@YAHHH@Z) 中引用了该符号
+imgui_impl_glfw.obj : error LNK2019: 无法解析的外部符号 _glfwGetKey，函数 "void __cdecl ImGui_ImplGlfw_UpdateKeyModifiers(struct GLFWwindow *)" (?ImGui_ImplGlfw_UpdateKeyModifiers@@YAXPAUGLFWwindow@@@Z) 中引用了该符号
+imgui_impl_glfw.obj : error LNK2019: 无法解析的外部符号 _glfwGetCursorPos，函数 "void __cdecl ImGui_ImplGlfw_UpdateMouseData(void)" (?ImGui_ImplGlfw_UpdateMouseData@@YAXXZ) 中引用了该符号
+imgui_impl_glfw.obj : error LNK2019: 无法解析的外部符号 _glfwSetCursorPos，函数 "void __cdecl ImGui_ImplGlfw_UpdateMouseData(void)" (?ImGui_ImplGlfw_UpdateMouseData@@YAXXZ) 中引用了该符号
+imgui_impl_glfw.obj : error LNK2019: 无法解析的外部符号 _glfwCreateStandardCursor，函数 "bool __cdecl ImGui_ImplGlfw_Init(struct GLFWwindow *,bool,enum GlfwClientApi)" (?ImGui_ImplGlfw_Init@@YA_NPAUGLFWwindow@@_NW4GlfwClientApi@@@Z) 中引用了该符号
+imgui_impl_glfw.obj : error LNK2019: 无法解析的外部符号 _glfwDestroyCursor，函数 "void __cdecl ImGui_ImplGlfw_Shutdown(void)" (?ImGui_ImplGlfw_Shutdown@@YAXXZ) 中引用了该符号
+imgui_impl_glfw.obj : error LNK2019: 无法解析的外部符号 _glfwSetCursor，函数 "void __cdecl ImGui_ImplGlfw_UpdateMouseCursor(void)" (?ImGui_ImplGlfw_UpdateMouseCursor@@YAXXZ) 中引用了该符号
+imgui_impl_glfw.obj : error LNK2019: 无法解析的外部符号 _glfwSetKeyCallback，函数 "void __cdecl ImGui_ImplGlfw_InstallCallbacks(struct GLFWwindow *)" (?ImGui_ImplGlfw_InstallCallbacks@@YAXPAUGLFWwindow@@@Z) 中引用了该符号
+main.obj : error LNK2001: 无法解析的外部符号 _glfwSetKeyCallback
+imgui_impl_glfw.obj : error LNK2019: 无法解析的外部符号 _glfwSetCharCallback，函数 "void __cdecl ImGui_ImplGlfw_InstallCallbacks(struct GLFWwindow *)" (?ImGui_ImplGlfw_InstallCallbacks@@YAXPAUGLFWwindow@@@Z) 中引用了该符号
+imgui_impl_glfw.obj : error LNK2019: 无法解析的外部符号 _glfwSetMouseButtonCallback，函数 "void __cdecl ImGui_ImplGlfw_InstallCallbacks(struct GLFWwindow *)" (?ImGui_ImplGlfw_InstallCallbacks@@YAXPAUGLFWwindow@@@Z) 中引用了该符号
+imgui_impl_glfw.obj : error LNK2019: 无法解析的外部符号 _glfwSetCursorPosCallback，函数 "void __cdecl ImGui_ImplGlfw_InstallCallbacks(struct GLFWwindow *)" (?ImGui_ImplGlfw_InstallCallbacks@@YAXPAUGLFWwindow@@@Z) 中引用了该符号
+main.obj : error LNK2001: 无法解析的外部符号 _glfwSetCursorPosCallback
+imgui_impl_glfw.obj : error LNK2019: 无法解析的外部符号 _glfwSetCursorEnterCallback，函数 "void __cdecl ImGui_ImplGlfw_InstallCallbacks(struct GLFWwindow *)" (?ImGui_ImplGlfw_InstallCallbacks@@YAXPAUGLFWwindow@@@Z) 中引用了该符号
+imgui_impl_glfw.obj : error LNK2019: 无法解析的外部符号 _glfwSetScrollCallback，函数 "void __cdecl ImGui_ImplGlfw_InstallCallbacks(struct GLFWwindow *)" (?ImGui_ImplGlfw_InstallCallbacks@@YAXPAUGLFWwindow@@@Z) 中引用了该符号
+main.obj : error LNK2001: 无法解析的外部符号 _glfwSetScrollCallback
+imgui_impl_glfw.obj : error LNK2019: 无法解析的外部符号 _glfwGetGamepadState，函数 "void __cdecl ImGui_ImplGlfw_UpdateGamepads(void)" (?ImGui_ImplGlfw_UpdateGamepads@@YAXXZ) 中引用了该符号
+imgui_impl_glfw.obj : error LNK2019: 无法解析的外部符号 _glfwSetClipboardString，函数 "void __cdecl ImGui_ImplGlfw_SetClipboardText(void *,char const *)" (?ImGui_ImplGlfw_SetClipboardText@@YAXPAXPBD@Z) 中引用了该符号
+imgui_impl_glfw.obj : error LNK2019: 无法解析的外部符号 _glfwGetClipboardString，函数 "char const * __cdecl ImGui_ImplGlfw_GetClipboardText(void *)" (?ImGui_ImplGlfw_GetClipboardText@@YAPBDPAX@Z) 中引用了该符号
+imgui_impl_glfw.obj : error LNK2019: 无法解析的外部符号 _glfwGetTime，函数 "void __cdecl ImGui_ImplGlfw_NewFrame(void)" (?ImGui_ImplGlfw_NewFrame@@YAXXZ) 中引用了该符号
+main.obj : error LNK2001: 无法解析的外部符号 _glfwGetTime
+imgui_impl_glfw.obj : error LNK2019: 无法解析的外部符号 _glfwGetWin32Window，函数 "bool __cdecl ImGui_ImplGlfw_Init(struct GLFWwindow *,bool,enum GlfwClientApi)" (?ImGui_ImplGlfw_Init@@YA_NPAUGLFWwindow@@_NW4GlfwClientApi@@@Z) 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 _glfwInit，函数 _main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 _glfwTerminate，函数 _main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 _glfwWindowHint，函数 _main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 _glfwCreateWindow，函数 _main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 _glfwWindowShouldClose，函数 _main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 _glfwSetWindowShouldClose，函数 "void __cdecl controller(struct GLFWwindow *)" (?controller@@YAXPAUGLFWwindow@@@Z) 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 _glfwSetFramebufferSizeCallback，函数 _main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 _glfwPollEvents，函数 _main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 _glfwMakeContextCurrent，函数 _main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 _glfwSwapBuffers，函数 _main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 _glfwGetProcAddress，函数 _main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: __thiscall Assimp::Importer::Importer(void)" (??0Importer@Assimp@@QAE@XZ)，函数 "private: void __thiscall Model::loadModel(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?loadModel@Model@@AAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: __thiscall Assimp::Importer::~Importer(void)" (??1Importer@Assimp@@QAE@XZ)，函数 "private: void __thiscall Model::loadModel(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?loadModel@Model@@AAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: struct aiScene const * __thiscall Assimp::Importer::ReadFile(char const *,unsigned int)" (?ReadFile@Importer@Assimp@@QAEPBUaiScene@@PBDI@Z)，函数 "public: struct aiScene const * __thiscall Assimp::Importer::ReadFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned int)" (?ReadFile@Importer@Assimp@@QAEPBUaiScene@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@I@Z) 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: char const * __thiscall Assimp::Importer::GetErrorString(void)const " (?GetErrorString@Importer@Assimp@@QBEPBDXZ)，函数 "private: void __thiscall Model::loadModel(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?loadModel@Model@@AAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 _aiGetMaterialTextureCount，函数 "public: unsigned int __thiscall aiMaterial::GetTextureCount(enum aiTextureType)const " (?GetTextureCount@aiMaterial@@QBEIW4aiTextureType@@@Z) 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 _aiGetMaterialTexture，函数 "public: enum aiReturn __thiscall aiMaterial::GetTexture(enum aiTextureType,unsigned int,struct aiString *,enum aiTextureMapping *,unsigned int *,float *,enum aiTextureOp *,enum aiTextureMapMode *)const " (?GetTexture@aiMaterial@@QBE?AW4aiReturn@@W4aiTextureType@@IPAUaiString@@PAW4aiTextureMapping@@PAIPAMPAW4aiTextureOp@@PAW4aiTextureMapMode@@@Z) 中引用了该符号
+..\..\Deps\Libs\glfw3.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+..\..\Deps\Libs\freetype.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\MyEngine\Engine\TestEngine\Debug\TestEngine.exe : fatal error LNK1120: 44 个无法解析的外部命令
